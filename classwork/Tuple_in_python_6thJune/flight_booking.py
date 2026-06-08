@@ -98,13 +98,13 @@ for record in bookings:
     elif record[1] == "Chennai":
         chennai += 1
 
-if delhi > mumbai and delhi > chennai:
+if delhi > mumbai and delhi > chennai: #checking for delhi if it is most booked
     most_booked = "Delhi"
 
-elif mumbai > delhi and mumbai > chennai:
+elif mumbai > delhi and mumbai > chennai: #checking for mumbai if it is most booked
     most_booked = "Mumbai"
 
 else:
-    most_booked = "Chennai"
+    most_booked = "Chennai" # checking for chennai if it is most booked
 
 print("--------------------------Most Booked Destination :----------------", most_booked)
