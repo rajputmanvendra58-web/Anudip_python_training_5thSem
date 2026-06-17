@@ -1,0 +1,3 @@
+101,Burger,Fast Food,45.0
+102,Pizza,Fast Food,200.0
+103,Maggi,Noodles,100.0
